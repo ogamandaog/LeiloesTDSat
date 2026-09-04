@@ -99,7 +99,7 @@ public class ProdutosDAO {
             "Erro ao vender produto: " + erro.getMessage()
         );
     }}
-    public ArrayList<ProdutosDTO> listarVendas() {
+    public ArrayList<ProdutosDTO> listarProdutosVendidos() { {
 
     ArrayList<ProdutosDTO> vendas = new ArrayList<>();
 
@@ -135,5 +135,4 @@ public class ProdutosDAO {
 
     return vendas;
 
-}
-}
+    }}}
